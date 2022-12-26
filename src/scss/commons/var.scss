@@ -1,0 +1,23 @@
+// fonts
+$montserrat: 'Montserrat',Helvetica,Arial,sans-serif;
+
+// media
+$xxl: 'screen and (max-width: 1600px)'; //до 1400
+$xl: 'screen and (max-width: 1400px)'; //до 1200
+$lg: 'screen and (max-width: 1200px)'; // до 992
+$md: 'screen and (max-width: 992px)'; // до 768 
+$sm: 'screen and (max-width: 768px)'; //до 576
+$esm: 'screen and (max-width: 576px)'; 
+ 
+//colors
+$white: #ffffff;
+$black: #000000;
+$blue: #3A5B8C;
+$gray: #4D4D4D;
+
+// для файла base
+
+$default_pageFontSize: 10px;
+$font_default: 'Montserrat',Helvetica,Arial,sans-serif;
+$font_title: 'Montserrat',Helvetica,Arial,sans-serif;
+$color_title: #1B1A1A;

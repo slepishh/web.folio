@@ -1,0 +1,11 @@
+mixin breadcrumb(items, last)
+	.breadcrumb(class=`breadcrumb-${page}`)
+		if (page != 'catalog')
+			ul.breadcrumb-list&attributes(attributes)
+				each item in items
+					li.breadcrumb-item
+						a(href="#" title=item).breadcrumb-link=item
+
+				if last
+					li.breadcrumb-item
+						span.breadcrumb-link-current=last

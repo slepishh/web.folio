@@ -1,0 +1,14 @@
+block variables
+    - var title = 'Главная'
+    - var page = 'index'
+    
+doctype html
+html(lang='ru')
+    head 
+        include html/static/head
+    body.body 
+        include html/static/header
+        include html/pages/index
+        include html/static/footer
+        script
+            include js/onpage/example.js
