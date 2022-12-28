@@ -1,173 +1,25 @@
-header.header
-    
-    .header-row
-        .container.container--flex
-            a.header__logo  
-                img(src="img/svg/logo-b.svg")
+header.header   
+    .container  
+        .header__wrapper 
+            a(href="index.html")  
+                img.header__logo(src="img/svg/main-logo.svg", alt="Логотип")
             nav.header__nav 
-                ul.header__links 
-                    li.header__link.header__link-item_1 
-                        a.header__link-text(href="#") Главная
-                    li.header__link.header__link-item_2 
-                        a.header__link-text(href="#") Проекты
-                    li.header__link.header__link-item_3 
-                        a.header__link-text(href="#") Контакты
-            .header__contacts
-                .header__callback.btn.load--callback 
-                    span Заказать звонок
-                a(hfer="tel:+79155387787") +7 (915) 538-77-87
-            .header__burger.js-menuBurger
-                span 
-                span 
-                span 
-        .header-row
-            ul.container.description-container 
-                li.items.items1
-                    a(href="#") Бетонные и монолитные работы 
-                    ul  
-                        li 
-                            a(href="#")
-                                span Бетонные работы 
-                        li 
-                            a(href="#")
-                                span монолитные работы
-                        li 
-                            a(href="#")
-                                span фундаментные работы
-                        li 
-                            a(href="#")
-                                span Каркасные работы
-                li.items.items2 
-                    a(href="#") Металлоконструкции 
-                    ul  
-                        li 
-                            a(href="#")
-                                span Бетонные работы 
-                        li 
-                            a(href="#")
-                                span монолитные работы
-                        li 
-                            a(href="#")
-                                span фундаментные работы
-                        li 
-                            a(href="#")
-                                span Каркасные работы
-                li.items.items3 
-                    a(href="#") Монтаж оборудования
-                    ul  
-                        li 
-                            a(href="#")
-                                span Бетонные работы 
-                        li 
-                            a(href="#")
-                                span монолитные работы
-                        li 
-                            a(href="#")
-                                span фундаментные работы
-                        li 
-                            a(href="#")
-                                span Каркасные работы
-                li.items.items4 
-                    a(href="#") Сельскохозяйственные объекты
-                    ul  
-                        li 
-                            a(href="#")
-                                span Бетонные работы 
-                        li 
-                            a(href="#")
-                                span монолитные работы
-                        li 
-                            a(href="#")
-                                span фундаментные работы
-                        li 
-                            a(href="#")
-                                span Каркасные работы
-        .menu__wrapper.js-menuWrap
-            .js-menu.slinky-menu.slinky-theme-default(style="transition-duration:300ms", height="471px", overflow-y="auto") 
-                ul(style="transition-duration:300ms;")
-                    li  
-                        a(href="#") Главная
-                    li 
-                        span Бетонные и монолитные работы
-                            
-                        ul
-                            li 
-                                a(href="#") Бетонные и монолитные работы    
-                            li 
-                                a(href="#") Бетонные работы    
-                            li 
-                                a(href="#") монолитные работы      
-                            li 
-                                a(href="#") фундаментные работы    
-                            li 
-                                a(href="#") Каркасные работы   
-                    li 
-                        span.next 
-                            span Металлоконструкции
-                        ul(style="transition-duration: 300ms; left: 0%;")
-                            li.header 
-                                a(href="#").back 
-                                    span.back-icon 
-                                    span.title Металлоконструкции
-                            li 
-                                a(href="#")
-                                    span Металлоконструкции 1 
-                            li 
-                                a(href="#")
-                                    span Металлоконструкции 2
-                            li 
-                                a(href="#")
-                                    span Металлоконструкции 3
-                            li 
-                                a(href="#")
-                                    span Металлоконструкции 4
-                    li 
-                        span.next 
-                            span Монтаж оборудования
-                        ul(style="transition-duration: 300ms; left: 0%;")
-                            li.header 
-                                a(href="#").back 
-                                    span.back-icon 
-                                    span.title Монтаж оборудования
-                            li 
-                                a(href="#")
-                                    span Монтаж оборудования 1 
-                            li 
-                                a(href="#")
-                                    span Монтаж оборудования 2
-                            li 
-                                a(href="#")
-                                    span Монтаж оборудования 3
-                            li 
-                                a(href="#")
-                                    span Монтаж оборудования 4
-                    li 
-                        span.next 
-                            span Сельскохозяйственные объекты
-                        ul(style="transition-duration: 300ms; left: 0%;")
-                            li.header 
-                                a(href="#").back 
-                                    span.back-icon 
-                                    span.title Сельскохозяйственные объекты
-                            li 
-                                a(href="#")
-                                    span Сельскохозяйственные объекты 1 
-                            li 
-                                a(href="#")
-                                    span Сельскохозяйственные объекты 2
-                            li 
-                                a(href="#")
-                                    span Сельскохозяйственные объекты 3
-                            li 
-                                a(href="#")
-                                    span Сельскохозяйственные объекты 4
-                    li  
-                        a(href="#")
-                            span Проекты
-                    li  
-                        a(href="#")
-                            span Контакты 
-                    .menu__footer 
-                        a(href="tel:+79155387787").header__contact +7 (915) 538-77-87
-                        a(href="#").menu__footer-callback.load--callback Связаться с нами 
-    
+                ul.header__nav-list 
+                    li.header__nav-list-item
+                        a.header__nav-item(href="#") Work
+                    li.header__nav-list-item
+                        a.header__nav-item(href="#") About
+                    li.header__nav-list-item
+                        a.header__nav-item(href="#") Shop
+                    li.header__nav-list-item
+                        a.header__nav-item(href="#") Blog
+                    li.header__nav-list-item
+                        a.header__nav-item(href="#") Contact
+            .header__cart
+                .cart 
+                    span Cart 
+                        span.cart-number (1)
+                    
+                .burger
+                    span 
+                    span

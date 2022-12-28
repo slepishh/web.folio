@@ -1,196 +1,87 @@
-.section-title{
-    font-size: 26px;
-    line-height: 120%;
-    color: $blue;
-    font-weight: 600;
-}
-.services-main{
-    margin-top: 40px;
+.main{
     
-    &__title{
-        font-weight: 600;
-        font-size: 20px;
-        line-height: 25px;
+    &__header{
+        height: 90vh;
+        background-color: $blue;
         color: $white;
-        padding: 16px 21px 16px 16px;
-    
     }
-}
-.services-main__items{
-    margin-top: 10px;
-    display: flex;
-    flex-direction: column;
-    .services-main__item{
-        width: 100%;
-        min-height: 203px;
-        background-repeat:no-repeat;
-        background-size: cover;
-        background-position: center;
-        margin-top: 20px;
-        
-    }
-
-}
-.home-advantages{
-    margin-top: 60px;
-    
-    &__content{
+    &__header-wrapper{
         display: flex;
-        flex-direction: column;
+        align-items: flex-end;
+        height: 90vh;
     }
-    &__item{
-        font-weight: 600;
-        font-size: 16px;
-        line-height: 145%;
-        color: $gray;
-        margin-top: 16px;
-        padding-left: 40px;
+    &__header-right-img{
+        width: 648px;
+        position: absolute;
+        bottom:0;
+        right: 0;
+    }
+    &__header-left{
+        width: 604px;
+    }
+    &__header-title{
+        font-weight: 400;
+        font-size: 72px;
+        line-height: 76px;
+        font-family: 'Epilogue', sans-serif;
+        margin-bottom: 34px;
+    }
+    &__header-desc{
+        font-style: normal;
+        font-weight: 400;
+        font-size: 22px;
+        line-height: 34px;
+        margin-bottom: 23px;
+    }
+    &__header-button{
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 25px;
+        margin-bottom: 100px;
+        display: block;
+        color: $blue;
+        padding: 20px 40px;
+        border-radius: 50px;
+        background-color: #fff;
+        width: fit-content;
+        padding-right: 84px;
         position: relative;
-        &::before{
+        &::after{
+            position:absolute;
+            top: 50%;
+            right: 40px;
             content: "";
-            background-image: url(../../img/svg/check.svg);
-            background-repeat: no-repeat;
-            background-size: cover;
-            background-position: center;
-            width: 27px;
-            height: 21px;
+            width: 24px;
+            height: 24px;
+            background-image: url(../img/svg/mail.svg);
+            transform: translateY(-50%);
+        }
+    }
+    .awards{
+        margin-bottom: 50px;
+        position: relative;
+        padding-left: 88px;
+        &::after{
             position: absolute;
-            top: 0;
+            top: 50%;
+            transform: translateY(-50%);
             left: 0;
-
+            content: "";
+            width: 64px;
+            height: 64px;
+            background-image: url(../img/svg/awards.svg);
         }
-    }
-    &__img{
-        background-image: url(../../img/index/advantages.png);
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: center;
-        width: 100%;
-        height: 211px;
-        margin-top: 30px;
-    }
-}
-.new-projects{
-    margin-top: 20px;
-    background-color: #E2E7EE;
-    padding: 40px 0 77px;
-    position: relative;
-    &__title{
-        
-        margin-bottom: 10px;
-    }
-    &__all{
-        position: absolute;
-        bottom:37px;
-        left: 15px;
-        font-weight: 600;
-        font-size: 16px;
-        line-height: 150%;
-        color: $blue;
-        text-decoration: underline;
-    }
-    &__item{
-        margin-top: 20px;
-        display: block;
-    }
-    h3{
-        font-weight: 600;
-        font-size: 16px;
-        line-height: 150%;
-        color: $gray;
-    }
-    &__item-detail{
-        display: none;
-    }
-}
-.partners {
-    & .slider-arrows {
-        @media #{$md} {
-            display: none;
+        &__title{
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 26px;
+            margin-bottom: 7px;
         }
-    }
-    margin-top: 73px;
-    position: relative;
-    
-    
-    &__text {
-        max-width: 419px;
-        display: inline-block;
-        margin-top: 10px;
-        font-weight: 500;
-        font-size: 16px;
-        line-height: 150%;
-        color: $gray;
-        margin-bottom: 30px;
-       
-        @media #{$md} {
-            max-width: 75%;
-            margin-top: 12px;
-            font-size: 1.8rem;
+        &__desc{
+            font-weight: 400;
+            font-size: 15px;
+            line-height: 22px;
+            opacity: 0.6;
         }
-        @media #{$sm} {
-            max-width: 100%;
-        }
-    }
-    .swiper-container {
-        position: absolute;
-        top: 20%;
-        right: 0px;
-        width: 57%;
-        @media #{$lg} {
-            top: 16%;
-            width: calc(100% - 480px);
-        }
-        @media #{$md} {
-            top: 0;
-            left: 0;
-            width: 100%;
-            padding-left: 24px;
-            position: relative;
-        }
-        @media #{$sm} {
-            padding-left: 15px;
-        }
-    }
-    .swiper-buttons {
-        display: flex;
-        margin-top: 15px;
-    }
-    &__item {
-        width: 214px;
-        height: auto;
-        text-align: center;
-        background: $white;
-        padding: 30px 14px 20px;
-        border: 1px solid #C5C5C5;
-        margin-left: 24px;
-    }
-    &__img {
-        height: 100px;
-        display: flex;
-        align-items: center;
-        align-content: center;
-        justify-content: center;
-    }
-    &__name {
-        font-weight: 600;
-        font-size: 1.6rem;
-        line-height: 1.3;
-    }
-    &__description {
-        margin-top: 26px;
-        font-weight: 500;
-        font-size: 12px;
-        line-height: 130%;
-        height: 50px;
-    }
-    &__link {
-        display: block;
-        margin-top: 16px;
-        text-decoration: underline;
-        font-size: 1.4rem;
-        line-height: 1.2;
-        font-weight: 600;
-        color: $blue;
     }
 }
