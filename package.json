@@ -53,5 +53,9 @@
     "type": "git",
     "url": "ssh://git@git.rbnd:2234/home/git/repositories/vdr_smp/"
   },
+  "directories": {
+    "test": "test"
+  },
+  "keywords": [],
   "description": ""
 }
