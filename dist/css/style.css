@@ -6183,13 +6183,59 @@ form.sent > .response p {
 .main .about__wrapper-right {
   width: 790px;
 }
+.main .about__expirience {
+  margin-bottom: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.main .about__expirience .expirience__numbers {
+  font-weight: 400;
+  font-size: 60px;
+  line-height: 66px;
+  color: #4543E8;
+  margin-bottom: 8px;
+  display: inline-block;
+}
+.main .about__expirience .expirience__text {
+  font-weight: 400;
+  font-size: 21px;
+  line-height: 31px;
+}
+.main .about__logo-company {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
 .main .feedback {
   margin-top: 115px;
+}
+.main .feedback .stars {
+  display: inline-block;
+  margin-bottom: 23px;
+}
+.main .feedback .stars .star {
+  width: 22px;
+  height: 21px;
+  margin-right: 10px;
+  background-image: url(../img/svg/star.svg);
+  background-size: cover;
+  display: inline-block;
 }
 .main .feedback__text {
   font-weight: 400;
   font-size: 19px;
   line-height: 28px;
+  width: 391px;
 }
 .main .feedback__person {
   margin-top: 27px;
@@ -6234,6 +6280,145 @@ form.sent > .response p {
   text-transform: uppercase;
   color: #4543E8;
   margin-left: 20px;
+}
+.main .section-title {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 54px;
+  margin-bottom: 74px;
+}
+.main .work {
+  padding-top: 180px;
+}
+.main .work .section__name {
+  margin-bottom: 26px;
+}
+.main .work .section-title {
+  width: 700px;
+  font-size: 60px;
+  line-height: 66px;
+}
+.main .work__wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  position: relative;
+  padding-bottom: 60px;
+}
+.main .work__wrapper .item1 {
+  width: 510px;
+}
+.main .work__wrapper .item2 {
+  width: 620px;
+  margin-bottom: 95px;
+}
+.main .work__wrapper .item3 {
+  width: 740px;
+  margin-bottom: 55px;
+  position: relative;
+  margin-left: 390px;
+}
+.main .work__wrapper .item4 {
+  width: 620px;
+}
+.main .work__wrapper .item5 {
+  width: 510px;
+}
+.main .work__item {
+  padding-bottom: 24px;
+  display: inline-block;
+}
+.main .work__item-img {
+  margin-bottom: 32px;
+}
+.main .work__item-title {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 30px;
+  margin-bottom: 4px;
+  position: relative;
+}
+.main .work__item-title::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 28px;
+  height: 28px;
+  background: url(../img/svg/work-arrow.svg);
+}
+.main .work__item-desc {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 28px;
+}
+.main .work__all-projects {
+  width: 160px;
+  height: 160px;
+  background-color: #4543E8;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-transform: uppercase;
+  color: #ffffff;
+  padding: 0 40px;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: absolute;
+  bottom: 0;
+  right: 352px;
+}
+.main .services {
+  margin-top: 120px;
+  padding: 144px 0;
+  background-color: #010032;
+  color: #fff;
+}
+.main .services .wave-title, .main .services .section-title {
+  color: inherit;
+}
+.main .services .section-title {
+  width: 352px;
+  padding-top: 22px;
+  margin-right: 167px;
+}
+.main .services__wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+.main .services__item {
+  width: 290px;
+}
+.main .services__item-img {
+  margin-bottom: 20px;
+}
+.main .services__item-title {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 30px;
+  margin-bottom: 23px;
+}
+.main .services__item-desc {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
 }
 
 .header {

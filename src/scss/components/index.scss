@@ -96,13 +96,52 @@
         &__wrapper-right{
             width: 790px;
         }
+        &__expirience{
+            margin-bottom: 50px;
+            display: flex;
+            justify-content: space-between;
+            .expirience{
+                &__numbers{
+                    font-weight: 400;
+                    font-size: 60px;
+                    line-height: 66px;
+                    color: #4543E8;
+                    margin-bottom: 8px;
+                    display: inline-block;
+                }
+                &__text{
+                    font-weight: 400;
+                    font-size: 21px;
+                    line-height: 31px;
+                }
+            }
+        }
+        &__logo-company{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
     }
     .feedback{
         margin-top: 115px;
+        .stars{
+            
+            display: inline-block;
+            margin-bottom: 23px;
+            .star{
+                width: 22px;
+                height: 21px;
+                margin-right: 10px;
+                background-image: url(../img/svg/star.svg);
+                background-size: cover;
+                display: inline-block;
+            }
+        }
         &__text{
             font-weight: 400;
             font-size: 19px;
             line-height: 28px;
+            width: 391px;
         }
         &__person{
             margin-top: 27px;
@@ -147,6 +186,132 @@
         color: #4543E8;
         margin-left: 20px;
         
+    }
+    .section-title{
+        font-style: normal;
+        font-weight: 400;
+        font-size: 48px;
+        line-height: 54px;
+        margin-bottom: 74px;
+    }
+    .work{
+        padding-top: 180px;
+        .section__name{
+            margin-bottom: 26px;
+        }
+        .section-title{
+            width: 700px;
+            font-size: 60px;
+            line-height: 66px;
+        }
+        &__wrapper{
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            position: relative;
+            padding-bottom: 60px;
+            & .item1{
+                width: 510px;
+            }
+            & .item2{
+                width: 620px;
+                margin-bottom: 95px;
+            }
+            & .item3{
+                width: 740px;
+                margin-bottom: 55px;
+                position: relative;
+                margin-left: 390px;
+            }
+            & .item4{
+                width: 620px;
+            }
+            & .item5{
+                width: 510px;
+            }
+
+        }
+        &__item{
+            padding-bottom: 24px;
+            display: inline-block;
+            &-img{
+                margin-bottom: 32px;
+            }
+            &-title{
+                font-weight: 400;
+                font-size: 24px;
+                line-height: 30px;
+                margin-bottom: 4px;
+                position: relative;
+                &::after{
+                    content: "";
+                    position: absolute;
+                    top: 0;
+                    right: 0;
+                    width: 28px;
+                    height: 28px;
+                    background: url(../img/svg/work-arrow.svg);
+                }
+            }
+            &-desc{
+                font-weight: 400;
+                font-size: 12px;
+                line-height: 28px;
+            }
+        }
+        &__all-projects{
+            width: 160px;
+            height: 160px;
+            background-color: #4543E8;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 24px;
+            text-transform: uppercase;
+            color: $white;
+            padding: 0 40px;
+            text-align: center;
+            display: flex;
+            align-items: center;
+            position: absolute;
+            bottom: 0;
+            right: 352px;
+        }
+    }
+    .services{
+        margin-top: 120px;
+        padding: 144px 0;
+        background-color: #010032;
+        color: #fff;
+        .wave-title, .section-title{
+            color: inherit;
+        }
+        .section-title{
+            width: 352px;
+            padding-top: 22px;
+            margin-right: 167px;
+        }
+        &__wrapper{
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
+        &__item{
+            width: 290px;
+            &-img{
+                margin-bottom: 20px;
+            }
+            &-title{
+                font-weight: 400;
+                font-size: 24px;
+                line-height: 30px;
+                margin-bottom: 23px;
+            }
+            &-desc{
+                font-weight: 400;
+                font-size: 18px;
+                line-height: 28px;
+            }
+        }
     }
 }
 
