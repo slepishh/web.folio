@@ -19,7 +19,7 @@
    vertical-align: baseline;
    font-family: 'Epilogue', sans-serif;
  }
- 
+
  html {
   font-size: 10px;
   font-family: 'Epilogue', sans-serif;
@@ -35,6 +35,7 @@
    -webkit-box-sizing: border-box;
    -moz-box-sizing: border-box;
    box-sizing: border-box;
+   font-family: 'Epilogue', sans-serif;
  }
  
  strong,
@@ -66,10 +67,10 @@
   max-width: 100%;
  }
  h1, h2, h3, h4, h5, h6 {
-   font-family: $montserrat;
+   
    // нужна переменная color: $color_title;
    font-weight: normal;
-  // нужна переменная font-family: $font_title;
+  
    line-height: 1.3;
  }
  
@@ -180,7 +181,7 @@
  /* ОБЩИЕ СТИЛИ */
  
  .container {
-  width: 1170px;
+  width: 1280px;
   margin: 0 auto;
   display: block;
   @media #{$lg} {
@@ -548,7 +549,7 @@
  
  /* Кнопки */
  .btn {
-    font-family: $montserrat;
+  
     display: inline-block;
     padding: 16px 53px;
     border-radius: 7px;
@@ -693,7 +694,7 @@
       }
      }
      & p {
-      font-family: $montserrat;
+      
       font-weight: 500;
       margin: 15px 0;
       font-size: 1.6rem;
@@ -928,7 +929,7 @@
          }
       }
       & p {
-       font-family: $montserrat;
+       
        color: #212121;
        font-weight: 500;
        margin-top: 5px;
@@ -975,7 +976,7 @@
          }
       }
       & p {
-       font-family: $montserrat;
+       
        color: #212121;
        font-weight: 500;
        margin-top: 5px;

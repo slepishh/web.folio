@@ -84,6 +84,70 @@
             opacity: 0.6;
         }
     }
+    .about{
+        padding-top: 144px;
+        &__wrapper{
+            display: flex;
+            justify-content: space-between;
+        }
+        &__wrapper-left{
+            width: 400px;
+        }
+        &__wrapper-right{
+            width: 790px;
+        }
+    }
+    .feedback{
+        margin-top: 115px;
+        &__text{
+            font-weight: 400;
+            font-size: 19px;
+            line-height: 28px;
+        }
+        &__person{
+            margin-top: 27px;
+            
+            padding-left: 88px;
+            position: relative;
+            &::before{
+                content: "";
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 64px;
+                height: 64px;
+                background-image: url(../img/index/person-foto.png);
+                background-repeat: no-repeat;
+                background-size: cover;
+            }
+        }
+        .person__name{
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 24px;
+            margin-bottom: 7px;
+        }
+        .person__post{
+            font-weight: 400;
+            font-size: 15px;
+            line-height: 24px;
+        }
+    }
+    
+    .section__name{
+        display: flex;
+        align-items: center;
+    }
+    .wave-title{
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        color: #4543E8;
+        margin-left: 20px;
+        
+    }
 }
 
 
