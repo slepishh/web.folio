@@ -6216,20 +6216,20 @@ form.sent > .response p {
       -ms-flex-align: center;
           align-items: center;
 }
-.main .feedback {
-  margin-top: 115px;
-}
-.main .feedback .stars {
+.main .stars {
   display: inline-block;
   margin-bottom: 23px;
 }
-.main .feedback .stars .star {
+.main .stars .star {
   width: 22px;
   height: 21px;
   margin-right: 10px;
   background-image: url(../img/svg/star.svg);
   background-size: cover;
   display: inline-block;
+}
+.main .feedback {
+  margin-top: 115px;
 }
 .main .feedback__text {
   font-weight: 400;
@@ -6481,6 +6481,49 @@ form.sent > .response p {
   text-align: center;
   width: 623px;
   margin-top: 26px;
+}
+.main .testimonials .swiper-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+.main .testimonials .swiper-wrapper .star {
+  background-image: url(../img/svg/star-t.svg);
+}
+.main .testimonials .swiper-wrapper .person__name {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  margin-bottom: 7px;
+}
+.main .testimonials .swiper-wrapper .person__post {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+}
+.main .testimonials li {
+  padding: 40px;
+  background-color: #fff;
+  border-radius: 20px 20px 0 20px;
+  width: 576px;
+  margin-bottom: 25px;
+}
+.main .testimonials .swiper__title {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 30px;
+  margin-bottom: 16px;
+}
+.main .testimonials .swiper__desc {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  margin-bottom: 23px;
 }
 
 .header {
